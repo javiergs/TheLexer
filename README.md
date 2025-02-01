@@ -1,6 +1,6 @@
 # TheLexer
 
-TheLexer is a Java-based lexical analyzer that processes input strings and identifies tokens based on a deterministic finite automaton (DFA).
+A Java-based lexical analyzer that processes input strings and identifies tokens based on a deterministic finite automaton (DFA).
 
 ## Project Structure
 
