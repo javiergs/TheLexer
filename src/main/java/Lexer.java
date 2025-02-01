@@ -1,6 +1,13 @@
 import java.io.*;
 import java.util.Vector;
 
+/**
+ * Lexer class to analyze the input file
+ * This one is an initial version that uses a DFA to recognize binary numbers
+ *
+ * @author javiergs
+ * @version 0.1
+ */
 public class Lexer {
 	
 	private File file;
@@ -38,7 +45,7 @@ public class Lexer {
 		
 		while (index < line.length()) {
 			char currentChar = line.charAt(index);
-			if (! (isOperator(currentChar) || isDelimiter(currentChar) || isSpace(currentChar))) {
+			if (!(isOperator(currentChar) || isDelimiter(currentChar) || isSpace(currentChar))) {
 				nextState = dfa.getNextState(currentState, currentChar);
 				string = string + currentChar;
 				currentState = nextState;

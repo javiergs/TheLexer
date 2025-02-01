@@ -1,5 +1,11 @@
 import java.util.*;
 
+/**
+ * Automata class to represent a DFA
+ *
+ * @author javiergs
+ * @version 1.0
+ */
 public class Automata {
 	
 	private final HashMap<String, String> table = new HashMap<>();
@@ -29,7 +35,7 @@ public class Automata {
 		System.out.println("DFA Transition Table:");
 		for (String state : table.keySet()) {
 			String[] parts = state.split("/");
-			System.out.println(parts[0] + " -> " + table.get(state)+ " [label=\"" + parts[1] + "\"];");
+			System.out.println(parts[0] + " -> " + table.get(state) + " [label=\"" + parts[1] + "\"];");
 		}
 	}
 	
