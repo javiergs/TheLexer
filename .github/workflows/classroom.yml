@@ -33,4 +33,5 @@ jobs:
         echo "GRADE=$SCORE" >> $GITHUB_ENV
     - name: Provide Feedback
       run: |
-      echo "Autograding complete. Grade: ${GRADE}"
+        echo "Autograding complete. Grade: $GRADE"
+        shell: bash
