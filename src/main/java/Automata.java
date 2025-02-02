@@ -1,7 +1,8 @@
 import java.util.*;
 
 /**
- * Automata class to represent a DFA
+ * Automata class represent a DFA.
+ * This version is implemented with a HashMap to store the transition table.
  *
  * @author javiergs
  * @version 1.0
