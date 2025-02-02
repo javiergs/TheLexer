@@ -20,7 +20,7 @@ class LexerTestOne {
 		Lexer lexer = new Lexer(file);
 		lexer.run();
 		assertFalse (lexer.getTokens().isEmpty(), "Tokens should not be empty");
-		assertEquals(lexer.getTokens().size(), 191, "Number of tokens should be 19");
+		assertEquals(lexer.getTokens().size(), 19, "Number of tokens should be 19");
 		System.out.println("Test passed.");
 	}
 	
