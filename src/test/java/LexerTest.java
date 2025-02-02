@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author javiergs
  * @version 1.0
  */
-class LexerTestOne {
+class LexerTest {
 	
 	@Test
 	void testingNumberOfTokens() throws IOException {
