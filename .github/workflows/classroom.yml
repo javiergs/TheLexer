@@ -26,3 +26,13 @@ jobs:
       run: mvn clean install
     - name: Run Maven Tests
       run: mvn test -Dtest=*
+    - name: Parse Test Results
+      id: parse_results
+      run: | 
+        PASSED=$(grep -oP 'Tests run: \d+, Failures: 0, Errors: 0' test-results.log | wc -l)
+        echo "Tests Passed: $PASSED"
+        echo "::set-output name=score::$((PASSED * 10))"
+    - name: Submit Grade
+      uses: education/autograding-grader@v1
+      with:
+      tests: '[{"name": "JUnit Tests", "points": 10, "output": "${{ steps.parse_results.outputs.score }}" }]'
