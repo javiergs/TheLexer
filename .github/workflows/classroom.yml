@@ -34,4 +34,3 @@ jobs:
     - name: Feedback
       run: |
         echo "Autograding complete. Grade: $GRADE"
-        shell: bash
