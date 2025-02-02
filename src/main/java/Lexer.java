@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Map;
 import java.util.Vector;
 
 /**
@@ -93,7 +94,8 @@ public class Lexer {
 		}
 	}
 	
+	public Vector<Token> getTokens() {
+		return tokens;
+	}
+	
 }
-
-
-
