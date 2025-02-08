@@ -2,3 +2,36 @@ int x = 0b00A,0b01Z 0b10 0b11;3-0b111 end
 1111 end
 0b1111 hello world eND.
 
+// second set
+hello;world cse340 up 2013/05/31 // end
+boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
+
+// third set
+000000005
+000000009
+000000009.1
+000000005
+000000005.1
+0x0000002
+0123456789
+
+// fourth set
+1.2e---3++ 
+$50
+ float ________________ = 5;    
+double x = 000000.1;    
+'''a'
+'\''b'
+'\'b'
+
+// fifth set
+" \\\\\\\\\\a"
+"Hello""world"
+abc"Hello"
+''’
+'\x’
+’\a'
+’\w’
+"\\\"
+
+// sixth set
