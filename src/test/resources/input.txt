@@ -2,11 +2,11 @@ int x = 0b00A,0b01Z 0b10 0b11;3-0b111 end
 1111 end
 0b1111 hello world eND.
 
-// second set
+-- second set
 hello;world cse340 up 2013/05/31 // end
 boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
 
-// third set
+-- third set
 int x = 5; 
 float y = "hello; 
 String @z = "9.5";
@@ -18,7 +18,7 @@ int me = 99999000001111222000000111111222223443483045830948;
 while { x != 9} ();
 int {x} = 10; 
 
-// fourth set
+-- fourth set
 000000005
 000000009
 000000009.1
@@ -28,7 +28,7 @@ int {x} = 10;
 0123456789
 
 
-// fifth set
+-- fifth set
 1.2e---3++ 
 $50
  float ________________ = 5;    
@@ -37,7 +37,7 @@ double x = 000000.1;    
 '\''b'
 '\'b'
 
-// sixth set
+-- sixth set
 " \\\\\\\\\\a"
 "Hello""world"
 abc"Hello"
@@ -46,3 +46,10 @@ abc"Hello"
 ’\a'
 ’\w’
 "\\\"
+
+// this is a comment and everything here 309475093 ++#$%#$^ #$%# $%# should be ignored !!
+/*
+ * also ignore this
+ * and this
+ * and all this! @5 => C#
+*/
