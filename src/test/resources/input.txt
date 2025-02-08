@@ -7,6 +7,18 @@ hello;world cse340 up 2013/05/31 // end
 boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
 
 // third set
+int x = 5; 
+float y = "hello; 
+String @z = "9.5";
+int x = cse340;
+if ( x > 14) while (5 == 5) if (int a) a = 1; 
+x = x; for ( ; ; );
+y = 13.45.0;
+int me = 99999000001111222000000111111222223443483045830948;
+while { x != 9} ();
+int {x} = 10; 
+
+// fourth set
 000000005
 000000009
 000000009.1
@@ -15,7 +27,8 @@ boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
 0x0000002
 0123456789
 
-// fourth set
+
+// fifth set
 1.2e---3++ 
 $50
  float ________________ = 5;    
@@ -24,7 +37,7 @@ double x = 000000.1;    
 '\''b'
 '\'b'
 
-// fifth set
+// sixth set
 " \\\\\\\\\\a"
 "Hello""world"
 abc"Hello"
@@ -33,5 +46,3 @@ abc"Hello"
 ’\a'
 ’\w’
 "\\\"
-
-// sixth set
